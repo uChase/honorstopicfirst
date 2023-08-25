@@ -7,9 +7,10 @@ import java.io.FileReader;
 
 public class FileWrite {
 
+    // test
     public static void main(String[] args) {
         FileWrite.writeToFile("hello \n goodbye", "test");
-        readFile("output.txt");
+        readFile("test.txt");
     }
 
     static void writeToFile(String text, String fileName) {
