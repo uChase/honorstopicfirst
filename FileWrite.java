@@ -9,7 +9,7 @@ public class FileWrite {
 
     // test
     public static void main(String[] args) {
-        FileWrite.writeToFile("hello \n goodbye", "test");
+        FileWrite.writeToFile("hello \n goodbye", "test.txt");
         readFile("test.txt");
     }
 
