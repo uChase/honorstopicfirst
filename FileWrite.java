@@ -59,4 +59,15 @@ public class FileWrite {
         }
         return null;
     }
+
+    static int characterCount(String fileName) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(fileName));
+        int count = 0;
+        while(br.ready()) {
+            br.read();
+            count++;
+        }
+        br.close();
+        return count;
+    }
 }
